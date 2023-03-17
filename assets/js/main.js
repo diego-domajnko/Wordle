@@ -1,149 +1,10 @@
-const palavras = [
-  {
-    palavra: "sagaz",
-    id: "0"
-  },
-  {
-    palavra: "mexer",
-    id: "1"
-  },
-  {
-    palavra: "termo",
-    id: "2"
-  },
-  {
-    palavra: "nobre",
-    id: "3"
-  },
-  {
-    palavra: "senso",
-    id: "4"
-  },
-  {
-    palavra: "algoz",
-    id: "5"
-  },
-  {
-    palavra: "afeto",
-    id: "6"
-  },
-  {
-    palavra: "plena",
-    id: "7"
-  },
-  {
-    palavra: "sutil",
-    id: "8"
-  },
-  {
-    palavra: "fazer",
-    id: "9"
-  },
-  {
-    palavra: "vigor",
-    id: "10"
-  },
-  {
-    palavra: "assim",
-    id: "11"
-  },
-  {
-    palavra: "audaz",
-    id: "12"
-  },
-  {
-    palavra: "sanar",
-    id: "13"
-  },
-  {
-    palavra: "fosse",
-    id: "14"
-  },
-  {
-    palavra: "cerne",
-    id: "15"
-  },
-  {
-    palavra: "ideia",
-    id: "16"
-  },
-  {
-    palavra: "inato",
-    id: "17"
-  },
-  {
-    palavra: "poder",
-    id: "18"
-  },
-  {
-    palavra: "moral",
-    id: "19"
-  },
-  {
-    palavra: "desde",
-    id: "20"
-  },
-  {
-    palavra: "justo",
-    id: "21"
-  },
-  {
-    palavra: "sobre",
-    id: "22"
-  },
-  {
-    palavra: "muito",
-    id: "23"
-  },
-  {
-    palavra: "torpe",
-    id: "24"
-  },
-  {
-    palavra: "honra",
-    id: "25"
-  },
-  {
-    palavra: "sonho",
-    id: "26"
-  },
-  {
-    palavra: "etnia",
-    id: "27"
-  },
-  {
-    palavra: "anexo",
-    id: "28"
-  },
-  {
-    palavra: "tange",
-    id: "29"
-  },
-  {
-    palavra: "amigo",
-    id: "30"
-  },
-  {
-    palavra: "lapso",
-    id: "31"
-  },
-  {
-    palavra: "expor",
-    id: "32"
-  },
-  {
-    palavra: "haver",
-    id: "33"
-  },
-  {
-    palavra: "casal",
-    id: "34"
-  },
-  {
-    palavra: "dengo",
-    id: "35"
-  }
-];
+async function buscarPalavras() {
+  const res = await fetch('http://localhost:3000/words');
+  const convertido = await res.json();
+  return convertido;
+}
+
+const palavras = await buscarPalavras();
 let letras = [
   {
     colunas: [false, false, false, false, false],
@@ -176,17 +37,16 @@ let letras = [
     linha: '6'
   }
 ]
-let contJogadas = 0;
 const btnTeclado = document.querySelectorAll('.letra');
 const palavra = escolherPalavraAleatoria().toUpperCase();
 const msgErro = document.querySelector('.msg');
-window.onload = palavra;
 console.log(palavra);
+let contJogadas = 0;
 
 function escolherPalavraAleatoria() {
   const id = Math.floor(Math.random() * palavras.length);
   const palavraAleatoria = palavras.find(palavra => palavra.id == id)
-  return palavraAleatoria.palavra;
+  return palavraAleatoria.word;
 }
 
 btnTeclado.forEach(e => {
@@ -257,7 +117,7 @@ function testarPalavra() {
     }
   }
   
-  const buscarPalavra = palavras.find(palavra => palavra.palavra.toUpperCase() == palavraEscrita);
+  const buscarPalavra = palavras.find(palavra => palavra.word.toUpperCase() == palavraEscrita);
   const palavraExiste = buscarPalavra ? true : false;
   
   if (todosEspacosPreenchidos && palavraExiste) {
@@ -293,9 +153,7 @@ function testarPalavra() {
         document.querySelector(`.linha__wordle-${encontrarLinhaNaoPreenchida()}`).querySelector(`.letra${i + 1}`).style.backgroundColor = "#538D4E";
       }
     }
-    console.log(contJogadas);
     contJogadas += 1;
-    console.log(contJogadas);
   } else if (!todosEspacosPreenchidos) {
     msgErro.classList.add('erro-qtd-letras');
     msgErro.style.display = "block";
@@ -305,7 +163,6 @@ function testarPalavra() {
     msgErro.style.display = "block";
     msgErro.innerHTML = `Palavra não está na lista`;
   }
-  
 }
 
 
