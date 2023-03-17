@@ -5,144 +5,400 @@
       "id": "0"
     },
     {
-      "word": "mexer",
+      "word": "negro",
       "id": "1"
     },
     {
-      "word": "termo",
+      "word": "mexer",
       "id": "2"
     },
     {
-      "word": "nobre",
+      "word": "termo",
       "id": "3"
     },
     {
-      "word": "senso",
+      "word": "nobre",
       "id": "4"
     },
     {
-      "word": "algoz",
+      "word": "senso",
       "id": "5"
     },
     {
-      "word": "afeto",
+      "word": "algoz",
       "id": "6"
     },
     {
-      "word": "plena",
+      "word": "afeto",
       "id": "7"
     },
     {
-      "word": "sutil",
+      "word": "plena",
       "id": "8"
     },
     {
-      "word": "fazer",
+      "word": "sutil",
       "id": "9"
     },
     {
-      "word": "vigor",
+      "word": "fazer",
       "id": "10"
     },
     {
-      "word": "assim",
+      "word": "vigor",
       "id": "11"
     },
     {
-      "word": "audaz",
+      "word": "assim",
       "id": "12"
     },
     {
-      "word": "sanar",
+      "word": "audaz",
       "id": "13"
     },
     {
-      "word": "fosse",
+      "word": "sanar",
       "id": "14"
     },
     {
-      "word": "cerne",
+      "word": "fosse",
       "id": "15"
     },
     {
-      "word": "ideia",
+      "word": "cerne",
       "id": "16"
     },
     {
-      "word": "inato",
+      "word": "ideia",
       "id": "17"
     },
     {
-      "word": "poder",
+      "word": "inato",
       "id": "18"
     },
     {
-      "word": "moral",
+      "word": "poder",
       "id": "19"
     },
     {
-      "word": "desde",
+      "word": "moral",
       "id": "20"
     },
     {
-      "word": "justo",
+      "word": "desde",
       "id": "21"
     },
     {
-      "word": "sobre",
+      "word": "justo",
       "id": "22"
     },
     {
-      "word": "muito",
+      "word": "sobre",
       "id": "23"
     },
     {
-      "word": "torpe",
+      "word": "muito",
       "id": "24"
     },
     {
-      "word": "honra",
+      "word": "torpe",
       "id": "25"
     },
     {
-      "word": "sonho",
+      "word": "honra",
       "id": "26"
     },
     {
-      "word": "etnia",
+      "word": "sonho",
       "id": "27"
     },
     {
-      "word": "anexo",
+      "word": "etnia",
       "id": "28"
     },
     {
-      "word": "tange",
+      "word": "anexo",
       "id": "29"
     },
     {
-      "word": "amigo",
+      "word": "tange",
       "id": "30"
     },
     {
-      "word": "lapso",
+      "word": "amigo",
       "id": "31"
     },
     {
-      "word": "expor",
+      "word": "lapso",
       "id": "32"
     },
     {
-      "word": "haver",
+      "word": "expor",
       "id": "33"
     },
     {
-      "word": "casal",
+      "word": "haver",
       "id": "34"
     },
     {
-      "word": "dengo",
+      "word": "casal",
       "id": "35"
+    },
+    {
+      "word": "dengo",
+      "id": "36"
+    },
+    {
+      "word": "tempo",
+      "id": "37"
+    },
+    {
+      "word": "seara",
+      "id": "38"
+    },
+    {
+      "word": "pesar",
+      "id": "39"
+    },
+    {
+      "word": "ardil",
+      "id": "40"
+    },
+    {
+      "word": "genro",
+      "id": "41"
+    },
+    {
+      "word": "posse",
+      "id": "42"
+    },
+    {
+      "word": "causa",
+      "id": "43"
+    },
+    {
+      "word": "coser",
+      "id": "44"
+    },
+    {
+      "word": "dizer",
+      "id": "45"
+    },
+    {
+      "word": "saber",
+      "id": "46"
+    },
+    {
+      "word": "prole",
+      "id": "47"
+    },
+    {
+      "word": "dever",
+      "id": "48"
+    },
+    {
+      "word": "corja",
+      "id": "49"
+    },
+    {
+      "word": "tenaz",
+      "id": "50"
+    },
+    {
+      "word": "brado",
+      "id": "51"
+    },
+    {
+      "word": "crivo",
+      "id": "52"
+    },
+    {
+      "word": "comum",
+      "id": "53"
+    },
+    {
+      "word": "sendo",
+      "id": "54"
+    },
+    {
+      "word": "temor",
+      "id": "55"
+    },
+    {
+      "word": "digno",
+      "id": "56"
+    },
+    {
+      "word": "ceder",
+      "id": "57"
+    },
+    {
+      "word": "culto",
+      "id": "58"
+    },
+    {
+      "word": "assaz",
+      "id": "59"
+    },
+    {
+      "word": "ainda",
+      "id": "60"
+    },
+    {
+      "word": "pauta",
+      "id": "61"
+    },
+    {
+      "word": "atroz",
+      "id": "62"
+    },
+    {
+      "word": "mundo",
+      "id": "63"
+    },
+    {
+      "word": "gleba",
+      "id": "64"
+    },
+    {
+      "word": "fugaz",
+      "id": "65"
+    },
+    {
+      "word": "estar",
+      "id": "66"
+    },
+    {
+      "word": "censo",
+      "id": "67"
+    },
+    {
+      "word": "forte",
+      "id": "68"
+    },
+    {
+      "word": "valha",
+      "id": "69"
+    },
+    {
+      "word": "vulgo",
+      "id": "70"
+    },
+    {
+      "word": "cozer",
+      "id": "71"
+    },
+    {
+      "word": "denso",
+      "id": "72"
+    },
+    {
+      "word": "pudor",
+      "id": "73"
+    },
+    {
+      "word": "regra",
+      "id": "74"
+    },
+    {
+      "word": "dogma",
+      "id": "75"
+    },
+    {
+      "word": "louco",
+      "id": "76"
+    },
+    {
+      "word": "criar",
+      "id": "77"
+    },
+    {
+      "word": "banal",
+      "id": "78"
+    },
+    {
+      "word": "jeito",
+      "id": "79"
+    },
+    {
+      "word": "round",
+      "id": "80"
+    },
+    {
+      "word": "impor",
+      "id": "81"
+    },
+    {
+      "word": "ordem",
+      "id": "82"
+    },
+    {
+      "word": "clava",
+      "id": "83"
+    },
+    {
+      "word": "pedir",
+      "id": "84"
+    },
+    {
+      "word": "apraz",
+      "id": "85"
+    },
+    {
+      "word": "tenro",
+      "id": "86"
+    },
+    {
+      "word": "desse",
+      "id": "87"
+    },
+    {
+      "word": "feliz",
+      "id": "88"
+    },
+    {
+      "word": "mesmo",
+      "id": "89"
+    },
+    {
+      "word": "homem",
+      "id": "90"
+    },
+    {
+      "word": "usura",
+      "id": "91"
+    },
+    {
+      "word": "servo",
+      "id": "92"
+    },
+    {
+      "word": "coisa",
+      "id": "93"
+    },
+    {
+      "word": "prosa",
+      "id": "94"
+    },
+    {
+      "word": "viril",
+      "id": "95"
+    },
+    {
+      "word": "presa",
+      "id": "96"
+    },
+    {
+      "word": "ontem",
+      "id": "97"
+    },
+    {
+      "word": "forma",
+      "id": "98"
+    },
+    {
+      "word": "limbo",
+      "id": "99"
     }
   ]
 }
