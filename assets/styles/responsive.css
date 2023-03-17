@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+  .cabecalho {
+    flex-direction: column;
+    height: 150px;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+  }
+
+  .cabecalho__link {
+    position: unset;
+  }
+
+  .principal {
+    padding: 0 1rem;
+  }
+
+  .principal__wordle {
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .retangulo {
+    --width: calc(100vw - 2rem);
+    max-width: 71px;
+    max-height: 71px;
+  }
+
+  .principal__teclado {
+    width: 100%;
+  }
+
+  .letra {
+    font-size: 1rem;
+    min-width: unset;
+    height: unset;
+  }
+}
