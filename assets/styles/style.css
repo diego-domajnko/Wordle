@@ -2,9 +2,16 @@
   --fonte-principal: 'Inter', sans-serif;
 
   --cor-principal: #FFFFFF;
+  --cor-erro-qtd-letras: #5F0F1D;
+  --cor-erro-inexistente: #7D6B15;
+  --cor-acerto: #2B5028;
 
   --bg-cor-principal: #14161C;
   --bg-cor-teclado: #818384;
+  --bg-cor-erro-qtd-letras: #BA4747;
+  --bg-cor-erro-inexistente: #B59F3B;
+  --bg-cor-acerto: #538D4E;
+  --bg-reiniciar-jogo: #F9FF00;
 
   --cor-border: #585858;
 }
@@ -24,19 +31,53 @@ body {
   border-bottom: 1px solid var(--cor-border);
   height: 80px;
   padding: 0 4rem;
+  position: relative;
+}
+
+.cabecalho__link {
+  position: absolute;
+  left: 4rem;
 }
 
 .cabecalho,
 .cabecalho__link {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .principal {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 6rem;
-  margin: 8rem 0;
+  margin: 4rem 0;
+}
+
+.msg {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  display: none;
+  justify-self: center;
+  font-weight: 700;
+}
+
+.erro-qtd-letras,
+.fim-de-jogo {
+  color: var(--cor-erro-qtd-letras);
+  background-color: var(--bg-cor-erro-qtd-letras);
+}
+
+.erro-palavra-inexistente {
+  color: var(--cor-erro-inexistente);
+  background-color: var(--bg-cor-erro-inexistente);
+}
+
+.acerto {
+  color: var(--cor-acerto);
+  background-color: var(--bg-cor-acerto);
 }
 
 .principal__wordle {
@@ -94,4 +135,11 @@ body {
 
 .letra:active {
   transform: scale(1.1);
+}
+
+.btnAcerto {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--bg-cor-principal);
+  background-color: var(--bg-reiniciar-jogo);
 }
